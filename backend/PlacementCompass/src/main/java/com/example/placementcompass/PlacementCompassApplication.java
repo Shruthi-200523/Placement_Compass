@@ -1,0 +1,14 @@
+package com.example.placementcompass;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class PlacementCompassApplication {
+
+    public static void main(String[] args) {
+
+        SpringApplication.run(PlacementCompassApplication.class, args);
+    }
+
+}
