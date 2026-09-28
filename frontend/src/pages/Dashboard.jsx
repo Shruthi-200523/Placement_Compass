@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "../api/axiosConfig";
 import "../App.css";
 
-const API_URL = "http://localhost:8080/api/dashboard/stats";
+const API_URL = `${import.meta.env.VITE_API_URL}/api/dashboard/stats`;
 
 function Dashboard() {
     const [stats, setStats] = useState({
